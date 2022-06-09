@@ -30,7 +30,7 @@ const server = (checkInMessage, leftDays) => {
     })
 }
 
-const GLaDOSCheckIn = async () => {
+const GLaDOS-CheckIn2-main = async () => {
     const checkInMessage = (await checkIn())?.data?.message;
     const leftDays = parseInt((await status())?.data?.data?.leftDays);
     console.log(leftDays, checkInMessage);
@@ -39,4 +39,4 @@ const GLaDOSCheckIn = async () => {
     }
 }
 
-GLaDOSCheckIn();
+GLaDOS-CheckIn2-main();
