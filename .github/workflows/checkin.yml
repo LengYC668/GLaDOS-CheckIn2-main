@@ -1,4 +1,4 @@
-name: GLaDOS-CheckIn2-main
+name: GLaDOS-CheckIn
 on:
   push:
     branches: [ main ]
